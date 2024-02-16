@@ -1,0 +1,25 @@
+.navbar{
+  font-family:comic sans MS;
+   height:100px;
+   justify-content: end;
+   border:2px solid gold
+}
+
+
+.click{
+  border:3px solid green;
+  padding:10px;
+  margin-right:10px;
+  border-radius:15px;
+}
+
+.click:hover{
+  background-color:aqua;
+}
+
+.text{
+  border:3px solid aqua;
+  padding:10px;
+  margin-right:10px;
+  border-radius:15px;
+}
