@@ -4,6 +4,11 @@ body{
 
 .navbar{
   background-color: #ea1c2c;
+  height:80px;
+  padding:30px;
+  margin:30px;
+  border-radius:20px;
+  
 }
 
 
