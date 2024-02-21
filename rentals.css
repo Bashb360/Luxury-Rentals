@@ -1,14 +1,27 @@
 body{
   background-color: #000000;
+  font-family:comic sans MS;
 }
 
 .navbar{
   background-color: #ea1c2c;
-  height:80px;
-  padding:30px;
-  margin:30px;
-  border-radius:20px;
+  height:90px;
+  /* padding:30px;
+  margin:30px; */
   
+  align-content: center;
+}
+
+h5{
+  margin:5px;
+}
+
+.number{
+  margin:10px;
+}
+.btn{
+  margin:10px;
+  background-color: #000000;
 }
 
 
