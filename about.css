@@ -1,69 +1,161 @@
-.card {
-  background-color: #f7f7f7;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  padding: 20px;
-  margin: 10px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+body{
+  font-family:comic sans MS;
 }
 
-.card h2 {
-  font-size: 24px;
-  margin-bottom: 10px;
-  color: #333;
-  text-align: center;
+.navbar{
+  width:auto;
+  height:80px;
+  justify-content: end;
 }
 
- 
-  form {
-      width: 400px;
-      margin: 20px auto;
-    }
-    
-    label {
-      display: block;
-      margin-bottom: 5px;
-    }
-    
-    input, textarea {
-      width: 100%;
-      padding: 10px;
-      margin-bottom: 10px;
-    }
-    
-    button[type="submit"] {
-      background-color: #333;
-      color: #fff;
-      border:red;
-      padding: 10px 20px;
-      cursor: pointer;
-      text-align: center;
-      
+.logo{
+    height: 60px;
+    top: 3px;
+    display:flex;
+    align-content:start;
+  }
+
+
+
+.click{
+  border:3px solid;
+  padding:10px;
+  margin-right:10px;
+  border-radius:15px;
+  color:black;
+  margin-inline:3px;
+}
+
+.text{
+  border: 1px solid black;
+  margin-inline:3px;
+  padding:7px;
+  border-radius:25px;
   
+}
+
+
+
+
+
+.grid{
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 10px;
+  column-gap: 10px;
+  
+}
+
+.grid-picture{
+  width: 250px;
+  margin: 10px;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+.btn-1{
+  /* width:80px;
+  border:3px solid;
+  padding:10px;
+  margin-left:60px;
+  border-radius:5px;
+  color:black; */
+  background-color: #04AA6D; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width:90px;
+  margin-left:60px;
+  border-radius:20px;
+}
+
+
+
+
+  @keyframes discount{
+    100%,
+    0%{
+      color: rgb(255,0,0);
     }
+    8%{
+      color: rgb(255,127,0);
+    }
+    16%{
+      color: rgb(255,255,0);
+    }
+    25%{
+      color: rgb(127,255,0);
+    }
+    33%{
+      color: rgb(0,255,0);
+    }
+    41%{
+      color: rgb(0,255,127);
+    }
+    50%{
+      color: rgb(0,255,255);
+    }
+  }
+  
+  .discount{
+    animation: discount 2s infinite linear;
+    font-size: 40px;
+    align-items: center;
+    display:flex;
+    justify-content: center;
+    margin-bottom:50px;
+  }
 
-
-.card ul {
-  padding: 0;
-  margin: 0;
-  list-style-type: none;
+.container{
+  max-width:1170px;
+  background-color: red;
+  margin:auto;
 }
 
-.card ul li {
-  margin-bottom: 10px;
+
+.row{
+  display:flex;
+  flex-wrap:wrap;
+}
+ul{
+  list-style:none;
+}
+.footer{
+  background-color:#24262b;
+  padding:40px 0;
+  justify-content:end;
+}
+.footer-col{
+  width:25%;
+  padding:0 15px;
+  
+
+}
+.footer-col h4{
+  font-size: 20px;
+  color:#ffffff;
+ margin-bottom: 30px;
+ font-weight: 500px;
+ position: relative;
+
 }
 
-.card {
-  background-image: linear-gradient(to bottom, #fff, #f7f7f7);
+/* reponsive */
+@media(max-width:768px){
+  .footer-col{
+      width:50%;
+      padding:0 15px;
+      margin-bottom:30px;
+  }
 }
-
-.card h2 {
-  background-color: #333;
-  color: #fff;
-  padding: 10px;
-}
-.card ul li {
-  background-color: #f1f1f1;
-  border: 1px solid #ccc;
-  padding: 10px;
+@media(max-width:574px){
+  .footer-col{
+      width:50%;
+      padding:100px;
+     
+  }
 }
