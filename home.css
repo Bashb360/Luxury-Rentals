@@ -12,7 +12,7 @@ body{
     height: 60px;
     top: 3px;
     display:flex;
-    align-content:start;
+    align-items:flex-start;
   }
 
 
@@ -116,7 +116,7 @@ p{
 
 .container{
   max-width:1170px;
-  background-color: red;
+  /* background-color: red; */
   margin:auto;
 }
 
@@ -145,7 +145,27 @@ ul{
  margin-bottom: 30px;
  font-weight: 500px;
  position: relative;
+ margin-left:40px;
+ 
 
+}
+
+.social-links{
+  margin-left:50px;
+
+}
+
+.BN-1{
+  border:3px solid #24262b;
+  border-radius:10px;
+  width:150px;
+  background-color:#24262b;
+  color:white;
+}
+
+h3{
+  font-size:50px;
+  font-weight: 30px;
 }
 
 /* reponsive */
