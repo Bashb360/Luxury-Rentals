@@ -9,27 +9,35 @@ body{
   justify-content: end;
 }
 
-.logo{
-    height: 60px;
-    top: 3px;
-    display:flex;
-    align-items:flex-start;
-  }
+.flex{
+  width: 90px;
+  height:60px;
+  display:flex;
+  margin-right:900px;
+
+
+}
+
 
 
 
 .click{
+  width:100px;
+  height:50px;
   border:3px solid;
-  padding:10px;
   margin-right:10px;
   border-radius:15px;
   background-color:white;
- 
+  display: flex;
+  align-items:center;
   margin-inline:3px;
 }
 
 .click:hover{
-  background-color:green;
+  background-color:#24262b;
+  color:#ffffff;
+  box-shadow: 0 5px #ffffff;
+  transform: translateY(5px);
 
 }
 
@@ -76,7 +84,8 @@ p{
 }
 
 .btn-1:hover{
-  background-color:aquamarine;
+  background-color:#24262b;
+  color:#ffffff;
   box-shadow: 0 5px #ffffff;
   transform: translateY(10px);
   
@@ -117,6 +126,7 @@ p{
     display:flex;
     justify-content: center;
     margin-bottom:50px;
+    margin-top:20px;
   }
 
 .container{
@@ -170,7 +180,7 @@ ul{
 }
 
 .BN-1:hover{
-  background-color: aqua;
+  background-color:#24262b;
   transform: translateY(4px);
   box-shadow: 0 5px #ffffff;
 }
