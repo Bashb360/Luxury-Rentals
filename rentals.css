@@ -4,7 +4,7 @@ body{
 }
 
 .navbar{
-  background-color: #ea1c2c;
+  background-color: #042326;
   height:90px;
   /* padding:30px;
   margin:30px; */
@@ -14,6 +14,7 @@ body{
 
 h5{
   margin:5px;
+  color: #fff;
 }
 
 .number{
@@ -47,15 +48,15 @@ h5{
 }
 .btn{
   margin:10px;
-  background-color: #000000;
+  background-color:#042326;
 }
 
 
 .best{
-    color:#ea1c2c;;
+    color:#107361;
     font-size: x-large;
-    border-radius: 15%;
-    border-color: #ea1c2c;
+    border-radius: 40%;
+    border-color:green;
 }
 
 .best:hover{
@@ -75,7 +76,7 @@ h5{
 }
 
 .bash h2{
-    color:#ea1c2c;
+    color:#107361;
     font-weight:100;
     font-size:2.5rem;
    
@@ -96,13 +97,14 @@ h5{
     list-style:none;
   }
   .footer{
-    background-color:firebrick;
+    background-color:#042326;
     padding:40px 0;
     justify-content:end;
   }
   .footer-col{
     width:25%;
     padding:0 15px;
+   
     
   
   }
@@ -117,19 +119,22 @@ h5{
   
   }
   
-  .social-links{
-    margin-left:50px;
+  .social-links i{
+   margin-left:13px;
+
+    
   
+    
   }
   
   /* .BN-1{
     border:3px solid #24262b;
-    border-radius:10px;
+    border-radius:50%;
     width:150px;
     background-color:#24262b;
     color:white;
-  }
-   */
+  } */
+   
  
   
   /* reponsive */
