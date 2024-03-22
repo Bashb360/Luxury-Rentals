@@ -30,7 +30,7 @@ body, html {
  
 }
  #expandme :hover{
-    color:#ea1c2c;
+    color:#BDE038;
   }
 
   *{
@@ -50,10 +50,12 @@ nav{
     height:10vh;
     position: sticky;
     margin-top: 15px;
+    background-color:#107361;
+    color:#ffffff
 
 }
 
-.nav-links{
+/* .nav-links{
     display:flex;
     list-style:none;
     width: 100%;
@@ -63,15 +65,14 @@ nav{
     align-items: center;
     margin-left: auto;
     margin-top:30px;
-    
-} 
+}  
 
 .nav-links li a{
     color: rgb(131, 25, 25);
     text-decoration: none;
     font-size:30px;
     
-}
+} */
 
 @media screen and (max-width:768px){
     .nav-links{
@@ -102,7 +103,7 @@ ul{
     list-style:none;
 }
 .footer{
-    background-color:#24262b;
+    background-color:#506266;
     padding:40px 0;
     justify-content:end;
 }
@@ -110,9 +111,12 @@ ul{
     width:25%;
     padding:0 15px;
     margin-top:30px;
-    
+    }
 
-}
+    .footer-col a{
+        color:#BDE038;
+    }
+
 .footer-col h4{
     font-size: 20px;
     color:#ffffff;
