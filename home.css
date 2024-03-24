@@ -37,10 +37,10 @@ body{
 }
 
 .click:hover{
-  background-color:#10403B;
+  background-color:#107361;
   color:#ffffff;
-  box-shadow: 0 5px #ffffff;
-  transform: translateY(5px);
+  /* box-shadow: 0 5px #ffffff; */
+  /* transform: translateY(5px); */
 
 }
 
@@ -90,8 +90,8 @@ p{
 .btn-1:hover{
   background-color:#107361;
   color:#ffffff;
-  box-shadow: 0 5px #ffffff;
-  transform: translateY(10px);
+  /* box-shadow: 0 5px #ffffff; */
+  /* transform: translateY(10px); */
   
 }
 
@@ -193,8 +193,8 @@ ul{
 
 .BN-1:hover{
   background-color:#107361;
-  transform: translateY(4px);
-  box-shadow: 0 5px #ffffff;
+  /* transform: translateY(4px); */
+  /* box-shadow: 0 5px #ffffff; */
 }
 
 h3{
