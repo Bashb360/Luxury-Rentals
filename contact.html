@@ -1,39 +1,52 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
-    <link type="text/css" rel="stylesheet" href="contact.css">
-    <script src="https://kit.fontawesome.com/3e6aa8ad6e.js" crossorigin="anonymous"></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Form</title>
+<link rel="stylesheet" href="contact.css">
+<script src="https://kit.fontawesome.com/3e6aa8ad6e.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="card">
-        <h2>FEEDBACK FORM</h2>
-        <form action="Submit-Feedback">
-            <p>
-                <label for="Name">Enter Name:</label>
-                <input type="Name" type="text"placeholder="Name" id="Name" name="Name">
-            </p>
-            
-            <p>
-                <label for="email">Enter Email:</label>
-              <input type="email" type="text"placeholder="Email" id="email" name="email">
-            </p>
-            <p>
-              <label for="request">Type Your FeedBack:</label>
-             
-              <textarea id="requests" rows="4"  name="request" placeholder="Type Your Feedback"></textarea>
-            </p>
-              
-            <p>
-              <input type="submit" value="Submit">
-               
-               </p>
-          
-        </form>
-        
+<div class="contact-form">
+  <h2>Contact Us</h2>
+  <form id="contactForm">
+    <input type="text" id="name" placeholder="Your Name" required>
+    <input type="email" id="email" placeholder="Your Email" required>
+    <textarea id="message" placeholder="Your Message" required></textarea>
+    <button type="submit">Submit</button>
+  </form>
+</div>
+
+
+<div class="gradient"></div>
+<footer>
+  <h2>Luxury Apartments</h2>
+  <ul>
+    <li>
+      <a href="https://www.linkedin.com/feed/" target="blank">
+  <span class="fa-brands fa-linkedin" aria-hidden="true"></span>
+        <span class="sr-only">LinkedIn</span>
+       </a> 
+    </li>
     
-      </div>
+    <li>
+      <a href="https://github.com/Bashb360?tab=overview&from=2024-03-01&to=2024-03-29" target="blank">
+   <span class="fa-brands fa-github" aria-hidden="true"></span>
+        <span class="sr-only">Github</span>
+       </a> 
+    </li>
+    
+    <li>
+      <a href="mailto:mubashar.nuru@gmail.com" target="blank">
+        <span class="fa-solid fa-envelope" aria-hidden="true"></span>
+        <span class="sr-only">Email</span>
+       </a> 
+    </li>
+   </ul>
+ 
+  <p><small>&copy; 2024 Luxury Apartments. All rights reserved.</small></p>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>

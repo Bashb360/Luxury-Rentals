@@ -102,6 +102,12 @@ nav{
 ul{
     list-style:none;
 }
+
+
+.gradient{
+    background: linear-gradient(90deg, rgba(23,255,139,1) 0%, rgba(134,251,251,1) 100%);
+    height:3px;
+}
 .footer{
     background-color:#506266;
     padding:40px 0;
